@@ -13,6 +13,9 @@
 		35719FA31ADC6AA200642974 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35719FA21ADC6AA200642974 /* Images.xcassets */; };
 		35719FA61ADC6AA200642974 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35719FA41ADC6AA200642974 /* LaunchScreen.xib */; };
 		35719FB21ADC6AA200642974 /* GameParlourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35719FB11ADC6AA200642974 /* GameParlourTests.swift */; };
+		35AABF3D1ADC6D3B0064B9C0 /* CheckerboardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AABF3C1ADC6D3B0064B9C0 /* CheckerboardGame.swift */; };
+		35AABF3F1ADC6D450064B9C0 /* CheckersGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AABF3E1ADC6D450064B9C0 /* CheckersGame.swift */; };
+		35AABF411ADC6D490064B9C0 /* MainClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AABF401ADC6D490064B9C0 /* MainClasses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		35719FAB1ADC6AA200642974 /* GameParlourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameParlourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		35719FB01ADC6AA200642974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35719FB11ADC6AA200642974 /* GameParlourTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameParlourTests.swift; sourceTree = "<group>"; };
+		35AABF3C1ADC6D3B0064B9C0 /* CheckerboardGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckerboardGame.swift; path = ../../GameParlor/GameParlor/CheckerboardGame.swift; sourceTree = "<group>"; };
+		35AABF3E1ADC6D450064B9C0 /* CheckersGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckersGame.swift; path = ../../GameParlor/GameParlor/CheckersGame.swift; sourceTree = "<group>"; };
+		35AABF401ADC6D490064B9C0 /* MainClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainClasses.swift; path = ../../GameParlor/GameParlor/MainClasses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				35719F9B1ADC6AA200642974 /* AppDelegate.swift */,
+				35AABF401ADC6D490064B9C0 /* MainClasses.swift */,
 				35719F9D1ADC6AA200642974 /* ViewController.swift */,
+				35AABF3E1ADC6D450064B9C0 /* CheckersGame.swift */,
+				35AABF3C1ADC6D3B0064B9C0 /* CheckerboardGame.swift */,
 				35719F9F1ADC6AA200642974 /* Main.storyboard */,
 				35719FA21ADC6AA200642974 /* Images.xcassets */,
 				35719FA41ADC6AA200642974 /* LaunchScreen.xib */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AABF411ADC6D490064B9C0 /* MainClasses.swift in Sources */,
 				35719F9E1ADC6AA200642974 /* ViewController.swift in Sources */,
 				35719F9C1ADC6AA200642974 /* AppDelegate.swift in Sources */,
+				35AABF3D1ADC6D3B0064B9C0 /* CheckerboardGame.swift in Sources */,
+				35AABF3F1ADC6D450064B9C0 /* CheckersGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +419,7 @@
 				35719FB71ADC6AA200642974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35719FB81ADC6AA200642974 /* Build configuration list for PBXNativeTarget "GameParlourTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				35719FBA1ADC6AA200642974 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
